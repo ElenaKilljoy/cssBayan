@@ -1,18 +1,17 @@
 /* html {
   scroll-behavior: smooth; 
   overflow-x: hidden;
-}
+}#2B7A78*/
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
-  color: #636060;
-  background-color: #FFFFFF;
-  overflow-x: hidden;
-} */
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #17252A;
+  background-color: #FEFFFF;
+} 
 
 .wrapper {
   max-width: 100%;
@@ -20,9 +19,38 @@ body {
   padding: 0 5% 0;
 }
 
+.container {
+  max-width: 80%;
+}
+
+.meme_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .meme_item {
   min-width: 100%;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
+  border-top: #3AAFA9 solid 0.2em;
+}
+
+h2 {
+  margin: 0.5em 0;
+}
+
+.meme_img {
+  margin-left: 2%;
+}
+
+.open_icon {
+  display: none;
+  font-size: 2em;
+}
+
+.close_icon {
+  display: none;
+  font-size: 1.3em;
 }
 
 
