@@ -1,0 +1,93 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.2;
+  color: #17252A;
+  background-color: #FEFFFF;
+} 
+
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 5% 0;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.container:hover .open_icon {
+  display: block;
+  transition: 0.8s;
+}
+
+.meme_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meme_item:hover h2 {
+  color: #2B7A78;
+  transition: 0.5s;
+}
+
+.meme_item:hover .close_icon {
+  display: block;
+  transition: 0.8s;
+}
+
+.meme_item:hover .open_icon {
+  display: none;
+}
+
+.meme_item:hover .meme_img {
+  display: block;
+  transition: 0.8s;
+}
+
+.meme_item {
+  min-width: 100%;
+  border-top: #AC3B61 solid 0.2em;
+  cursor: pointer;
+}
+
+h2 {
+  margin: 0.5em 0.5em;
+  transition: 0.5s;
+}
+
+.first {
+  color: #2B7A78;
+}
+
+.meme_img {
+  margin-left: 2%;
+  padding-bottom: 2%;
+  transition: 0.8s;
+}
+
+.hidden {
+  display: none;
+  transition: 0.8s;
+}
+
+.open_icon {
+  display: none;
+  font-size: 2em;
+  transition: 0.8s;
+}
+
+.close_icon {
+  display: none;
+  font-size: 1.3em;
+  transition: 0.8s;
+}
+
+.first_icon {
+  display: block;
+  font-size: 1.3em;
+}
+
